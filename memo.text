@@ -1,0 +1,10 @@
+#articles/what-is-slug.md`が作成される　what-is-slugがスラッグ
+npx zenn new:article --slug what-is-slug
+
+#公開
+git init
+git add .
+git commit -m "Add article"
+git branch -M main
+git remote add origin https://github.com/hayatech-gh/zenn-content
+git push -u origin main
