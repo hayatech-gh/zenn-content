@@ -1,7 +1,15 @@
-#articles/what-is-slug.md`が作成される　what-is-slugがスラッグ
-npx zenn new:article --slug what-is-slug
+#articles/what-is-slug.md`が作成される
+npx zenn new:article --slug <記事のスラッグ>
 
-#公開
+#2回目以降の公開
+git add .
+git commit -m "Add article"
+git push
+
+#競合エラーの解消
+git pull origin main --rebase
+
+#初公開
 git init
 git add .
 git commit -m "Add article"
