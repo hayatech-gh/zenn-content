@@ -3,7 +3,7 @@ title: "LPIC1資格を取得しようと思った理由と学習方法"
 emoji: "📝"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["LPIC1", "初心者", "資格"]
-published: false
+published: true
 date: "2024.12.25"
 ---
 
