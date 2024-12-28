@@ -6,6 +6,11 @@ git add .
 git commit -m "Add article"
 git push
 
+#内容を修正して投稿
+git add .
+git commit -m "Fix article" 
+git push
+
 #競合エラーの解消
 git pull origin main --rebase
 
