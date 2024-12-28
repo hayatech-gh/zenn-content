@@ -13,7 +13,7 @@ date: "2024.12.25"
 
 ## 実績
 
-![試験結果](https://storage.googleapis.com/zenn-user-upload/9cee5f4f10f6-20241225.png)
+![試験結果](https://storage.googleapis.com/zenn-user-upload/9cee5f4f10f6-20241225.png =400x)
 
 得意ではない分野もありましたが、101 試験と 102 試験のすべての分野で 75%以上の得点を達成できたので、自分なりに努力が実を結んだと思います。
 
