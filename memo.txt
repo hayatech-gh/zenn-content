@@ -1,4 +1,4 @@
-#articles/what-is-slug.md`が作成される
+#articles/<記事のスラッグ>.md`が作成される
 npx zenn new:article --slug <記事のスラッグ>
 
 #2回目以降の公開
