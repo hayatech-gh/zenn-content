@@ -53,21 +53,21 @@ Ping-t は、LPIC だけでなく様々な IT 試験の対策ができるオン�
 ### 2. LPIC レベル 1 スピードマスター問題集: Version5.0 対応 101 試験、102 試験対応
 
 ![LPIC レベル 1 スピードマスター問題集: Version5.0 対応 101 試験、102 試験対応](https://m.media-amazon.com/images/I/51mzBac6Q0L._SY445_SX342_.jpg =200x)
-[LPIC レベル 1 スピードマスター問題集: Version5.0 対応 101 試験、102 試験対応](https://www.shoeisha.co.jp/book/detail/9784798160856)
+[LPIC レベル 1 スピードマスター問題集: Version5.0 対応 101 試験、102 試験対応](https://amzn.asia/d/2bKNWh8)
 
 通称「白本」です。Ping-t の補強として使用しました。Ping-t では網羅しきれない部分や深掘りしたい内容について、白本を活用しました。
 
 ### 3. Linux 教科書 LPIC レベル 1 Version5.0 対応
 
 ![Linux 教科書 LPIC レベル 1 Version5.0 対応](https://m.media-amazon.com/images/I/51kkwZ88wIL._SY445_SX342_.jpg =200x)
-[Linux 教科書 LPIC レベル 1 Version5.0 対応](https://www.shoeisha.co.jp/book/detail/9784798160498)
+[Linux 教科書 LPIC レベル 1 Version5.0 対応](https://amzn.asia/d/4A8Y9dd)
 
 通称「あずき本」です。赤本は、教科書や辞書のように使える教材です。特定のコマンドや設定について調べたいときに重宝しました。また、スキマ時間に軽く読み返すことで、知識を定着させました。
 
 ### 4. Linux 教科書 図解でパッとわかる LPIC/LinuC
 
 ![Linux 教科書 図解でパッとわかる LPIC/LinuC](https://m.media-amazon.com/images/I/51j3Vs2urHL._SY445_SX342_.jpg =200x)
-[Linux 教科書 図解でパッとわかる LPIC/LinuC](https://www.shoeisha.co.jp/book/detail/9784798177823)
+[Linux 教科書 図解でパッとわかる LPIC/LinuC](https://amzn.asia/d/gDt8pRz)
 
 この本は、内容が比較的浅めで大枠を理解するのに適しています。LPIC1 の全体像を把握するために、通勤時間などのスキマ時間に読み進めました。
 Ω
