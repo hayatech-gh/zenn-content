@@ -1,6 +1,9 @@
 #articles/<記事のスラッグ>.md`が作成される
 npx zenn new:article --slug <記事のスラッグ>
 
+#プレビュー
+npx zenn preview
+
 #2回目以降の公開
 git add .
 git commit -m "Add article"

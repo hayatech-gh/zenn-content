@@ -1,5 +1,5 @@
 ---
-title: "LPIC1合格体験記：Linux初心者が実践した試験対策について"
+title: "LPIC1合格体験記：Linuxが実践した試験対策について"
 emoji: "📝"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["LPIC", "Linux", "初心者", "資格"]
