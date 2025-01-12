@@ -43,7 +43,7 @@ Python を半年ほど実務で使う中で、スキルを客観的に証明し�
 
 ### 2. ディープロ EXAM
 
-![ディープロ EXAM](https://storage.googleapis.com/zenn-user-upload/2a8f605e6275-20250111.png)
+![ディープロ EXAM](https://storage.googleapis.com/zenn-user-upload/2a8f605e6275-20250111.png =400x)
 
 [ディープロ EXAM](https://diver.diveintocode.jp/dive_into_exam/lp)
 
