@@ -86,7 +86,7 @@ const LoadingIndicator = ({ isLoading }) => {
 <LoadingIndicator isLoading={true} />;
 ```
 
-この例では、`isLoading`が`true`の場合に「ローディング中...」が表示され、`false`の場合に「内容が読み込まれました!」が表示されます。
+この例では、isLoading が true の場合に「ローディング中...」が表示され、false の場合に「内容が読み込まれました!」が表示されます。
 
 ### if 文との比較
 
