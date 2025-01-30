@@ -39,7 +39,7 @@ const result = apiResponse.success ? apiResponse.data : "エラーが発生し�
 console.log(result); // "ユーザーデータ"
 ```
 
-この例では、`apiResponse.success` が `true`ならば data を返し、`false`ならばエラーメッセージを返します。三項演算子を使用すると、条件分岐を簡潔に記述できます。
+この例では、`apiResponse.success` が `true`ならば `apiResponse.data` を返し、`false`ならばエラーメッセージを返します。三項演算子を使用すると、条件分岐を簡潔に記述できます。
 
 ### if 文との比較
 
