@@ -39,7 +39,7 @@ const result = apiResponse.success ? apiResponse.data : "エラーが発生し�
 console.log(result); // "ユーザーデータ"
 ```
 
-この例では、apiResponse.success が true ならば data を返し、false ならばエラーメッセージを返します。三項演算子を使用すると、条件分岐を簡潔に記述できます。
+この例では、`apiResponse.success` が `true`ならば data を返し、`false`ならばエラーメッセージを返します。三項演算子を使用すると、条件分岐を簡潔に記述できます。
 
 ### if 文との比較
 
@@ -70,7 +70,7 @@ if 文を使う場合、条件ごとに処理を分ける必要があるため�
 
 ### JSX の例
 
-以下は、isLoading の状態に応じてコンポーネントの内容を切り替える例です。
+以下は、`isLoading` の状態に応じてコンポーネントの内容を切り替える例です。
 （なお、React を使う際は、通常 useState を用いて状態を管理しますが、この例では簡潔さを重視しています。）
 
 ```jsx
@@ -86,7 +86,7 @@ const LoadingIndicator = ({ isLoading }) => {
 <LoadingIndicator isLoading={true} />;
 ```
 
-この例では、isLoading が true の場合に「ローディング中...」が表示され、false の場合に「内容が読み込まれました!」が表示されます。
+この例では、`isLoading` が `true` の場合に「ローディング中...」が表示され、`false`の場合に「内容が読み込まれました!」が表示されます。
 
 ### if 文との比較
 
