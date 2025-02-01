@@ -2,7 +2,7 @@
 title: "【JavaScript】null 合体演算子についてまとめてみた"
 emoji: "🈚️"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["JavaScript", "TypeScript", "React"]
+topics: ["JavaScript", "React"]
 published: true
 date: "2025.02.02"
 ---
