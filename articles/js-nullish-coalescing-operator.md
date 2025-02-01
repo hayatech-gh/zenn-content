@@ -4,7 +4,7 @@ emoji: "🈚️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["JavaScript", "React"]
 published: true
-date: "2025.02.01"
+date: "2025.02.02"
 ---
 
 # JavaScript の null 合体演算子について
