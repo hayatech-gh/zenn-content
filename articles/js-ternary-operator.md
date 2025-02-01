@@ -2,7 +2,7 @@
 title: "【JavaScript】三項演算子についてまとめてみた"
 emoji: "☘️"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["JavaScript", "React"]
+topics: ["JavaScript", "TypeScript", "React"]
 published: true
 date: "2025.01.28"
 ---
