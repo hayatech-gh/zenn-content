@@ -2,9 +2,9 @@
 title: "【Next.js(v15)】エラー解決法：Type '***' does not satisfy the constraint"
 emoji: "🙀"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["Nextjs", "TypeScript", "エラーハンドリング"]
+topics: ["Nextjs", "TypeScript"]
 published: true
-date: "2025.03.09"
+date: "2025.03.10"
 ---
 
 # 【Next.js 15】エラー解決法：Type error: Type '\*\*\*' does not satisfy the constraint
