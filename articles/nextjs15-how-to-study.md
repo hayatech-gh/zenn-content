@@ -23,7 +23,7 @@ Next.js は React ベースのフレームワークで、サーバーサイド�
 - JavaScript（TypeScript が使えるとより良い）
 - React（useState や useEffect など基本 Hooks）
 
-未経験の方は、まず React の基礎を学ぶことをおすすめします。
+これらの言語は Nextjs で開発する際に欠かせない言語ですので、未経験の方はまず基礎を学ぶことをおすすめします。
 
 ## Next.js v15 とは？前バージョンとの違い
 
