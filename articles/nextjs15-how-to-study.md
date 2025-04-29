@@ -41,7 +41,7 @@ Next.js v15 では、以下のような大きな変更がありました：
 無料で手軽に学べるのが YouTube の魅力です。私が特に参考になったのは以下の動画です：
 
 📺【超入門】Next.js の基本がすぐ分かる！アニメーションで解説してみた  
-URL: https://youtu.be/U6GqYyW6FxM?si=uTBcdW3GA_26FGk1
+URL:　https://youtu.be/U6GqYyW6FxM?si=uTBcdW3GA_26FGk1
 
 この動画では、Next.js の基本構成や App Router、レイアウト管理の考え方などをアニメーションで直感的に学べます。  
 短時間で要点がまとまっており、初心者の方に特におすすめです。
@@ -52,7 +52,7 @@ URL: https://youtu.be/U6GqYyW6FxM?si=uTBcdW3GA_26FGk1
 実践的に学びたい方には、Udemy 講座がおすすめです。私が購入して良かったのは以下のコースです：
 
 🎓【最先端】Next.js15 マスター講座 - ServerActions/新登場 Hooks を SNS 開発で理解しよう -  
-URL: https://www.udemy.com/course/nextjs15-newhooks-with-sns-dev/?couponCode=JUST4U02223
+URL:　https://www.udemy.com/course/nextjs15-newhooks-with-sns-dev/?couponCode=JUST4U02223
 
 この講座では、SNS 風アプリを開発しながら以下を学べます：
 
@@ -81,10 +81,5 @@ URL: https://www.udemy.com/course/nextjs15-newhooks-with-sns-dev/?couponCode=JUS
 ## まとめ
 
 Next.js v15 は非常にモダンで強力なフレームワークですが、学習リソースがまだ整っていないのが現状です。  
-その中でも、以下のようなアプローチで効率よく学習を進めることができます：
-
-- 無料で全体像をつかむなら YouTube
-- 実践的に取り組むなら Udemy のハンズオン
-- 教材が古い場合は、生成 AI に v15 対応コードへリファクタしてもらう
-
+以上で紹介したアプローチ（YouTube、Udemy、生成 AI）で効率よく学習を進めることができます。
 新しい技術であるため学習のしづらさはありますが、この記事が Next.js v15 習得のお役に立てれば嬉しいです！
