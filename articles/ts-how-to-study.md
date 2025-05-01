@@ -3,8 +3,8 @@ title: "【TypeScript】おすすめの教材について"
 emoji: "🦖"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["TypeScript"]
-published: false
-date: "2025.05.02"
+published: true
+date: "2025.05.01"
 ---
 
 # 【TypeScript】おすすめの教材について
