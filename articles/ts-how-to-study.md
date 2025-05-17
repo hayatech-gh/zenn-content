@@ -17,11 +17,11 @@ TypeScript を始めてから半年ほど経ちました。最初は「型って
 
 ### １．Web サイト
 
-#### 🔹 [サバイバル TypeScript](https://typescriptbook.jp/)
+#### [サバイバル TypeScript](https://typescriptbook.jp/)
 
 TypeScript を始めた方やこれから始めるプログラミング経験者のために作られた日本語の無料学習サイトです。コード例が豊富で、わかりやすく解説しています。
 
-#### 🔹 [TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive/)
+#### [TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive/)
 
 元々は英語のサイトですが、日本語訳が公開されており、無料で読むことができます。
 サバイバル TypeScript で基礎を固めつつ、より深い理解を得るために TypeScript Deep Dive も併用しました。
@@ -35,19 +35,19 @@ Udemy は動画で学べるオンライン教材サービスで、私は主に�
 > 💡 **ポイント**  
 > Udemy の講座は月に２〜3 回程度セールが行われますので、その際にご購入をおすすめします！通常価格は数万円しますが、セール時には大幅に割引され、2000~3000 円程度で購入できます。
 
-#### 📘 【『React』×『TypeScript』入門】家計簿アプリ作成で React と TypeScript の開発方法を学ぼう
+#### 【『React』×『TypeScript』入門】家計簿アプリ作成で React と TypeScript の開発方法を学ぼう
 
 URL:　https://www.udemy.com/course/reacttypescrip-reacttypescript/?couponCode=KEEPLEARNING
 
 TypeScript と React を使用し、家計簿アプリを開発します。型定義や状態管理など、開発に必須なスキルを学ぶことができます。
 
-#### 📘 【Discord クローン開発】React/Redux/Typescript/Firebase で作るアプリ開発実践講座
+#### 【Discord クローン開発】React/Redux/Typescript/Firebase で作るアプリ開発実践講座
 
 URL:　https://www.udemy.com/course/discord-clone-udemy/?couponCode=KEEPLEARNING
 
 Typescript の型定義の応用や Redux による状態管理の使い方が学びながら、Discord クローンを開発できます。実際の UI を作りながら、コンポーネントごとの型設計が身につきます。
 
-#### 📘 【実務レベルの開発を学びたい方へ】React + Typescript で超本格的な Notion クローンを作ろう
+#### 【実務レベルの開発を学びたい方へ】React + Typescript で超本格的な Notion クローンを作ろう
 
 URL:　https://www.udemy.com/course/react-notion-clone/?couponCode=KEEPLEARNING
 
