@@ -3,8 +3,8 @@ title: "ZENN の記事を高速で反映させるブログサイトを開発🧑
 emoji: "🧑🏼‍💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Nextjs", "TypeScript", "TailwindCss"]
-published: false
-date: "2025.05.17"
+published: true
+date: "2025.05.18"
 ---
 
 # ZENN の記事を高速で反映させるブログサイトを開発 🧑🏼‍💻（Next.js × TypeScript × Tailwind CSS 使用、Vercel で無料運用） 〜開発編〜

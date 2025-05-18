@@ -58,13 +58,15 @@ Vercel は、アプリケーションのパフォーマンスを監視し、改�
 
 #### Vercel Analytics
 
-_（ここに Vercel Analytics の実際の画面キャプチャが入ります）_
+![Vercel Analytics](https://storage.googleapis.com/zenn-user-upload/39abe0561d1d-20250517.png)
+_Vercel Analytics_
 
 Vercel Analytics は、実際のユーザーのアクセス状況や行動に関するデータを提供します。ページビュー数、ユニーク訪問者数、滞在時間、離脱率など、サイトの利用状況を把握し、コンテンツの改善やユーザーエンゲージメントの向上に役立てることができます。
 
 #### Vercel Speed Insights
 
-_（ここに Vercel Speed Insights の実際の画面キャプチャが入ります）_
+![Vercel Speed Insights](https://storage.googleapis.com/zenn-user-upload/c0665ad13dd0-20250517.png)
+_Vercel Speed Insights_
 
 Vercel Speed Insights は、Google が提唱する Core Web Vitals (LCP, FID, CLS) を含む、サイトのパフォーマンスに関する詳細な情報を提供します。実際のユーザー体験に基づいたパフォーマンス指標を計測し、改善点やボトルネックを特定することができます。
 
@@ -78,7 +80,10 @@ Vercel Speed Insights は、Google が提唱する Core Web Vitals (LCP, FID, CL
 
 ### 2\. Google SEO 対策
 
-_（ここに Google Search Console でのサイト名検索結果のキャプチャが入ります）_
+![Google検索結果](https://storage.googleapis.com/zenn-user-upload/ffbbc204458a-20250517.png)
+_Google 検索結果_
+![Yahoo 検索結果](https://storage.googleapis.com/zenn-user-upload/32509c05116a-20250517.png)
+_Yahoo 検索結果_
 
 Google 検索での表示順位を向上させるために、**Google Search Console** にサイトを登録し、サイトマップを送信しました。これにより、Google のクローラーがサイトのコンテンツを効率的に発見し、インデックス登録を促進することができます。その結果、Google や Yahoo\! などの検索エンジンでサイト名「HayaTech-Blog」を入力すると、比較的上位に表示されるようになりました。
 
