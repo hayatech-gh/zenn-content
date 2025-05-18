@@ -3,7 +3,7 @@ title: "ZENN の記事を高速で反映させるブログサイトを開発🧑
 emoji: "🧑🏻‍💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["設計", "Nextjs", "Vercel"]
-published: true
+published: false
 date: "2025.05.18"
 ---
 
