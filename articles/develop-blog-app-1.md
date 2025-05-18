@@ -24,10 +24,10 @@ URL：[https://hayatech-blog.vercel.app/](https://hayatech-blog.vercel.app/)
 
 モバイルファーストを意識し、シンプルで見やすいデザインを心がけました。以下モックアップは Figma のプラグイン「Mockuuups Studio」で作成しました。
 
-![PC 版](https://storage.googleapis.com/zenn-user-upload/479d195f237c-20250503.jpg)
+![PC 版](https://storage.googleapis.com/zenn-user-upload/479d195f237c-20250503.jpg =600x)
 _PC 版_
 
-![スマートフォン版](https://storage.googleapis.com/zenn-user-upload/07155a755541-20250503.jpg)
+![スマートフォン版](https://storage.googleapis.com/zenn-user-upload/07155a755541-20250503.jpg =600x)
 _スマートフォン版_
 
 ## システム概要
@@ -48,7 +48,7 @@ _スマートフォン版_
 
 ### アーキテクチャ図
 
-![アーキテクチャ図](https://storage.googleapis.com/zenn-user-upload/ac72525b0f45-20250503.jpg)
+![アーキテクチャ図](https://storage.googleapis.com/zenn-user-upload/ac72525b0f45-20250503.jpg =600x)
 _アーキテクチャ図_
 
 ### 技術選定の背景
@@ -92,7 +92,7 @@ _アーキテクチャ図_
 
 ユーザーにとって直感的で使いやすいインターフェースを目指しました。
 
-![モック](https://storage.googleapis.com/zenn-user-upload/3e43b254a892-20250503.jpg)
+![モック](https://storage.googleapis.com/zenn-user-upload/3e43b254a892-20250503.jpg =600x)
 _モック_
 
 ### デザインのポイント
