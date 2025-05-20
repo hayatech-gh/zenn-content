@@ -29,7 +29,8 @@ URL：[https://hayatech-blog.vercel.app/](https://hayatech-blog.vercel.app/)
 
 ### 1\. GitHub 上の Markdown ファイル一覧を取得する
 
-```ts:lib/utility/getarticle.ts
+```ts
+//lib/utility/getarticle.ts
 export async function fetchGithubRepo(url: string) {
   try {
     const res = await fetch(url, {
@@ -49,7 +50,8 @@ export async function fetchGithubRepo(url: string) {
 
 ### 2\. 各記事の本文とメタデータを取得・解析する
 
-```ts:lib/utility/getArticle.ts
+```ts
+// lib/utility/getArticle.ts
 export async function fetchGithubMakeArticle(url: string, fileName: string) {
   try {
     const res = await fetch(url + fileName, {
@@ -58,17 +60,17 @@ export async function fetchGithubMakeArticle(url: string, fileName: string) {
     if (!res.ok) throw `ステータスコードエラー：${res.status}`;
 
     const data = await res.json();
-    const buffer = Buffer.from(data.content, 'base64');
-    const fileContents = buffer.toString('utf-8');
+    const buffer = Buffer.from(data.content, "base64");
+    const fileContents = buffer.toString("utf-8");
     const matterResult = matter(fileContents);
 
     if (!matterResult.data.published) return;
 
     return {
-      id: fileName.replace(/\.md$/, ''),
+      id: fileName.replace(/\.md$/, ""),
       ...(matterResult.data as ArticleMeta),
       content: matterResult.content,
-      from: 'Zenn',
+      from: "Zenn",
     };
   } catch (err) {
     console.log(`contentfetchデータの処理中にエラー：${err}`);
@@ -82,17 +84,18 @@ export async function fetchGithubMakeArticle(url: string, fileName: string) {
 
 ### 3\. 記事一覧をまとめて取得して整形する
 
-```ts:lib/mdData.ts
+```ts
+// lib/mdData.ts
 export async function getMdsData(): Promise<Article[]> {
   const zennArticles: ArticleResponse[] = await fetchGithubRepo(
-    'https://api.github.com/repos/hayatech-gh/zenn-content/contents/articles',
+    "https://api.github.com/repos/hayatech-gh/zenn-content/contents/articles"
   );
 
   const datas = await Promise.all(
     zennArticles.map(async (article) => {
       return await fetchGithubMakeArticle(
-        'https://api.github.com/repos/hayatech-gh/zenn-content/contents/articles/',
-        article.name,
+        "https://api.github.com/repos/hayatech-gh/zenn-content/contents/articles/",
+        article.name
       );
     })
   );
@@ -107,7 +110,8 @@ export async function getMdsData(): Promise<Article[]> {
 
 ### 4\. Markdown を HTML に変換し、Zenn 拡張記法に対応する
 
-```ts:lib/mdData.ts
+```ts
+// lib/mdData.ts
 export async function getHtmlContent(article: Article) {
   const unifiedContent = await unified()
     .use(remarkParse)
@@ -137,7 +141,8 @@ export async function getHtmlContent(article: Article) {
 
 ### 1\. Markdown データの取得とソート
 
-```tsx:app/page.tsx
+```tsx
+// app/page.tsx
 const allMdsData = await getMdsData();
 const sortedMdData = await getSortedMdsData(allMdsData);
 ```
@@ -146,7 +151,8 @@ const sortedMdData = await getSortedMdsData(allMdsData);
 
 ### 2\. ページネーション処理の実装
 
-```tsx:app/page.tsx
+```tsx
+// app/page.tsx
 const currentPage = params.page
   ? parseInt(Array.isArray(params.page) ? params.page[0] : params.page, 10)
   : 1;
@@ -160,7 +166,8 @@ Next.js の `searchParams` を利用して、URL クエリパラメータから�
 
 ### 3\. 記事カードの描画
 
-```tsx:app/page.tsx
+```tsx
+// app/page.tsx
 {
   paginatedBlogs.map(({ id, title, emoji, date, topics, type }) => (
     <li key={id}>
@@ -186,7 +193,8 @@ Next.js の `searchParams` を利用して、URL クエリパラメータから�
 
 ### 1\. 記事データの取得と Markdown から HTML への変換
 
-```tsx:app/blogs/[id]/page.tsx
+```tsx
+// app/blogs/[id]/page.tsx
 const allBlogsData = await getMdsData();
 const blogData = getMdData(allBlogsData, id);
 const convertedBlogData = await getHtmlContent(blogData);
@@ -196,7 +204,8 @@ const convertedBlogData = await getHtmlContent(blogData);
 
 ### 2\. 記事内容の HTML 表示
 
-```tsx:app/blogs/[id]/page.tsx
+```tsx
+// app/blogs/[id]/page.tsx
 <div className="md-html">
   <div dangerouslySetInnerHTML={{ __html: convertedBlogData.content }} />
 </div>
@@ -206,7 +215,8 @@ const convertedBlogData = await getHtmlContent(blogData);
 
 ### 3\. コメント・いいね機能の埋め込み
 
-```tsx:app/blogs/[id]/page.tsx
+```tsx
+// app/blogs/[id]/page.tsx
 <Like blogId={id} />
 <Comment blogId={id} />
 <Board blogId={id} />
