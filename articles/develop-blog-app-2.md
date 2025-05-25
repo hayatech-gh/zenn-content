@@ -1,6 +1,6 @@
 ---
-title: "ZENN の記事を高速で反映させるブログサイトを開発🧑🏼‍💻 〜開発編〜"
-emoji: "🧑🏼‍💻"
+title: "ZENN の記事を高速で反映させるブログサイトを開発 〜開発編〜"
+emoji: "👹"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Nextjs", "TypeScript", "TailwindCss"]
 published: true

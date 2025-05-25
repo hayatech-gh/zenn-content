@@ -1,6 +1,6 @@
 ---
-title: "ZENN の記事を高速で反映させるブログサイトを開発🧑🏽‍💻 〜運用編〜"
-emoji: "🧑🏽‍💻"
+title: "ZENN の記事を高速で反映させるブログサイトを開発 〜運用編〜"
+emoji: "🦁"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["運用", "Vercel", "SEO"]
 published: true
